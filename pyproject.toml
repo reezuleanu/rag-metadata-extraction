@@ -1,0 +1,9 @@
+[project]
+name = "rag-metadata-extraction"
+version = "0.1.0"
+description = "Determine relevant metadata for RAG and extract it using DocETL"
+readme = "README.md"
+requires-python = ">=3.11, <3.12"
+dependencies = [
+    "docetl>=0.2.4",
+]
